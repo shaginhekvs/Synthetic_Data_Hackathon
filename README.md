@@ -1,6 +1,8 @@
 # 🦸♀️ Avengers RL Hackathon: Small Specialists Unite!
 
 Link to the Repository: https://github.com/shaginhekvs/Synthetic_Data_Hackathon
+Link to Medium article: https://medium.com/@shaginhekvs/avengers-rl-small-specialists-take-on-a-giant-3fa036402697
+
 
 Welcome to the **Synthetic Data Hackathon** repository, where we revolutionize reinforcement learning by demonstrating that specialized, compact agents coordinating together can outshine massive, untrained models! Our project combines innovative environments, cutting-edge training techniques, and a thrilling "Avengers RL" concept that pits tiny trained experts against colossal but naive giants.
 
@@ -132,25 +134,25 @@ Before running any training notebooks, ensure the corresponding environment serv
 
 **CartPole Environment (Port 8030):**
 ```bash
-start_cartpole_server.sh  # or ./start_cartpole_server.sh
+start_cartpole_server.sh  # or ./OpenEnv/scripts/start_cartpole_server.sh
 # Expected port: 8030 - serves CartPole environment for training
 ```
 
 **MountainCar Environment (Port 8050):**
 ```bash
-start_mountaincar_server.sh  # or ./start_mountaincar_server.sh
+start_mountaincar_server.sh  # or ./OpenEnv/scripts/start_mountaincar_server.sh
 # Expected port: 8050 - serves MountainCarContinuous environment for training
 ```
 
 **LunarLander Environment (Port 8090):**
 ```bash
-start_lunarlander_server.sh  # or ./start_lunarlander_server.sh
+start_lunarlander_server.sh  # or ./OpenEnv/scripts/start_lunarlander_server.sh
 # Expected port: 8090 - serves LunarLanderContinuous environment for training
 ```
 
 **Sequential Environment (Port 8060):**
 ```bash
-start_sequential_server.sh  # or ./start_sequential_server.sh
+start_sequential_server.sh  # or ./OpenEnv/scripts/start_sequential_server.sh
 # Expected port: 8060 - serves combined sequential environment for multi-experiment testing
 ```
 
